@@ -1,0 +1,38 @@
+h1,h2 {
+  text-align: center;
+}
+body {
+  background-color: #ff8a80;
+}
+
+div.content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(150, 150, 150, 0.7);
+}
+div.featured {
+  float: right;
+  width: 35%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+ul.bar {
+  text-align: center;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  width: 24%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+a.bar {
+  text-decoration: none;
+  color: black;
+}
