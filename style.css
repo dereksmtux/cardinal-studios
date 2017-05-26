@@ -1,8 +1,9 @@
-h1,h2 {
+h1,h2,h3 {
+  color: white;
   text-align: center;
 }
 body {
-  background-color: #ff8a80;
+  background-color: #222;
 }
 
 div.content {
@@ -20,6 +21,10 @@ div.featured {
   border: 1px solid black;
   border-radius: 5px;
 
+}
+div.intro {
+  font-size: 20px;
+  padding: 5px;
 }
 ul.bar {
   text-align: center;
