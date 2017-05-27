@@ -5,8 +5,11 @@ h1,h2,h3 {
 body {
   background-color: #222;
 }
-
+.header {
+  display: none;
+}
 div.content {
+  display: none;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -20,11 +23,28 @@ div.featured {
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
+  margin-right: 5px;
 
 }
 div.intro {
   font-size: 20px;
   padding: 5px;
+}
+div.storeContainer {
+  display: none;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+div.storeItem {
+  color: white;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin-left: 6.5%;
+  background-color: rgba(60, 60, 60, 0.5);
 }
 ul.bar {
   text-align: center;
@@ -32,7 +52,7 @@ ul.bar {
 }
 li {
   display: inline-block;
-  width: 24%;
+  width: 19%;
   margin-left: auto;
   margin-right: auto;
 
