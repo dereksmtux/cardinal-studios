@@ -3,7 +3,7 @@ h1,h2,h3 {
   text-align: center;
 }
 body {
-  background-color: #222;
+  background-color: #777;
 }
 .header {
   display: none;
@@ -44,7 +44,10 @@ div.storeItem {
   width: 25%;
   float: left;
   margin-left: 6.5%;
-  background-color: rgba(60, 60, 60, 0.5);
+  background-color: rgba(75, 75, 75, 0.6);
+}
+img.storeItem{
+  width: 60%;
 }
 ul.bar {
   text-align: center;
