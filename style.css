@@ -51,10 +51,23 @@ div.storeItem {
   width: 25%;
   float: left;
   margin-left: 6.5%;
+  margin-top: 2%;
   background-color: rgba(75, 75, 75, 0.6);
+}
+div.expandedItem {
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.featuredItem {
+  width: 50%;
+  margin-left: 0%;
 }
 img.storeItem{
   width: 60%;
+}
+img.featuredItem {
+  width: 70%;
 }
 ul.bar {
   text-align: center;
@@ -70,4 +83,7 @@ li {
 a.bar {
   text-decoration: none;
   color: black;
+}
+button.storeBackButton {
+  display: none;
 }
