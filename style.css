@@ -56,6 +56,7 @@ div.storeItem {
 }
 div.expandedItem {
   width: 84%;
+  float: none;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,6 +67,9 @@ div.featuredItem {
 img.storeItem{
   width: 60%;
 }
+ul.storeItem{
+  text-align: left;
+}
 img.featuredItem {
   width: 70%;
 }
@@ -73,7 +77,7 @@ ul.bar {
   text-align: center;
   list-style-type: none;
 }
-li {
+li.bar {
   display: inline-block;
   width: 19%;
   margin-left: auto;
@@ -86,4 +90,8 @@ a.bar {
 }
 button.storeBackButton {
   display: none;
+}
+div.showMore {
+  display: none;
+  padding: 5px;
 }

@@ -10,11 +10,13 @@ $(document).ready(function() {
     $(this).parent().show();
     $('div.storeItem').toggleClass('expandedItem');
     $('button.storeBackButton').show();
+    $('.showMore').show();
   });
 //handler for store back button
   $('button.storeBackButton').click(function(){
     $('button.storeBackButton').hide();
     $('div.storeItem').toggleClass('expandedItem');
     $('div.storeItem').show();
+    $('.showMore').hide();
   });
 });
